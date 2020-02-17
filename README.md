@@ -1,4 +1,8 @@
-# POO_Workshop
+# POO_Workshop 
 
+Outils nécéssaires:
 
-[Pour télécharger XAMPP c'est par ici -> ](https://www.apachefriends.org/download.html)
+* Xampp
+* Visual studio code (ou autre éditeur de texte)
+
+[Pour télécharger XAMPP c'est par ici!](https://www.apachefriends.org/download.html)
