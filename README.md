@@ -1,4 +1,4 @@
-# POO_Workshop créé par Surya Hendricks
+# Workshop "programmation orienté objet en PhP" créé par Surya Hendricks
 
 Outils nécéssaires:
 
