@@ -1,4 +1,4 @@
-# POO_Workshop 
+# POO_Workshop créé par Surya Hendricks
 
 Outils nécéssaires:
 
