@@ -1,4 +1,4 @@
-# Workshop "programmation orienté objet en PhP" créé par Surya Hendricks
+# Workshop "programmation orienté objet en PhP".
 
 Outils nécéssaires:
 
@@ -9,3 +9,6 @@ Outils nécéssaires:
 
 
 ![giphy](https://user-images.githubusercontent.com/54063721/74820603-9ef33380-5302-11ea-96bf-c59e4e3b2507.gif)
+
+
+Workshop animé par Surya Hendricks
