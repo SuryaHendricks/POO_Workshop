@@ -11,3 +11,5 @@
 <?php 
     include("common/footer.php");
 ?>
+
+-Copier/coller les objets de l'exercice précédent
