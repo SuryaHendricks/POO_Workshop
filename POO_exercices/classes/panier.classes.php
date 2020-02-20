@@ -1,22 +1,40 @@
 <?php
 
+class Panier{
+
+    private static $nextIdentifiant = 1;
+
+    private $identifiant;
+    private $pommes = [];
+    private $oranges = [];
+
+    public function __construct(){
+        $this->identifiant = self::$nextIdentifiant;
+        self::$nextIdentifiant ++;
+    }
+
+    public function addFruit($fruit){
+        if($fruit->getNom() === Fruits::POMME){
+            $this->pommes[] = $fruit;
+        } elseif ($fruit->getNom() === Fruits::ORANGE){
+            $this->oranges[] = $fruit;
+        }
+    }
+    public function getIdentifiant(){
+        return $this->identifiant;
+    }
+    
+    public function __toString(){
+        $affichage = "<h2>Voici le contenu du panier : " . $this->identifiant ."</h2><br/>";
+        foreach($this->pommes as $pomme){
+            $affichage .= $pomme;
+        }
+        foreach($this->oranges as $orange){
+            $affichage .= $orange;
+        }
+        return $affichage;
+    }
+    
+}
 
 ?>
- <!-- Exercices 2 :
-
--Créer des attributs "static" pour les pommes [] et les oranges []
-
--Créer un identifiant que vous incrémenterer (à l'aide d'un attribut "static") 
- pour différencier les paniers
-
--Créer une méthode pour ajouter des fruits aux paniers en fonction du nom du fruit 
- (vous aurez besoin de créer un getter si vous avez déclaré vos attributs en "private")
-
--Utilisé la fonction "__toString" pour afficher vos paniers avec un "echo" -->
-
- Exercices 3 :
-
- -Créer un getter pour récupérer l'identifiant
-
-
-
